@@ -1,7 +1,5 @@
-from modules.app import run_app
 import pandas as pd
-
-import pytest
+from modules.app import run_app
 
 
 def create_synthetic_test_data():
