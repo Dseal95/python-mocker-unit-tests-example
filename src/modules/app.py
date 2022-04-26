@@ -32,7 +32,6 @@ def run_app():
     """Run app."""
 
     df = get_data_from_cloud_database(key=None)
-
     df = do_some_calculation(data=df, column="A")
     df = do_some_calculation(data=df, column="C")
 
