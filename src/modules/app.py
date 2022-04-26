@@ -18,7 +18,7 @@ def do_some_calculation(data: pd.DataFrame, column: str):
         pd.DataFrame: DataFrame with a reversed sign column.
     """
     # flip the sign of an entire numerical column of data.
-    data[column] = -1*data[column]
+    data[column] = -1 * data[column]
 
     return data
 
@@ -32,10 +32,10 @@ def run_app():
     """Run app."""
 
     df = get_data_from_cloud_database(key=None)
-    
-    df = do_some_calculation(data=df, column='A')
-    df = do_some_calculation(data=df, column='C')
-    
+
+    df = do_some_calculation(data=df, column="A")
+    df = do_some_calculation(data=df, column="C")
+
     write_processed_data_back_to_cloud_database()
 
     return df
