@@ -1,5 +1,5 @@
-import pandas as pd
 from modules.app import run_app
+import pandas as pd
 
 
 def create_synthetic_test_data():
