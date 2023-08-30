@@ -1,4 +1,4 @@
-# Mocker_Unit_Tests_Example
+# Mocker Unit Tests Example
 A small repo to explain the use of Pytest Mocker to mock functions during testing. 
 
 Link to **Medium** article that uses this repository - **add link**
